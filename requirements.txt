@@ -1,0 +1,13 @@
+# Python 3.8 (tested on 3.8.8)
+# Install PyTorch first for your platform/CUDA version: https://pytorch.org/get-started/locally/
+numpy
+pandas==2.0.3
+scikit-learn
+pyyaml
+optuna
+xgboost==2.1.4
+lightgbm==4.2.0
+torch
+pytorch-lightning==2.0.2
+pytorch-tabnet==4.1.0
+tensorboard==2.13.0

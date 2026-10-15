@@ -1,0 +1,27 @@
+# Experiment queue (configs are local)
+_pending/*
+!_pending/.gitkeep
+_done*/*
+!_done/.gitkeep
+
+# Run outputs
+logs/**
+!logs/.gitkeep
+!logs/models/
+!logs/models/.gitkeep
+!logs/metadata/
+!logs/metadata/.gitkeep
+lightning_logs/
+*.ckpt
+
+# Data (not distributed)
+datasets/**
+!datasets/raw_datasets/
+!datasets/raw_datasets/.gitkeep
+
+# Python / editors
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.vscode/
+.idea/
